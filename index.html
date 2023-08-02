@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="module" src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+    <h1> Using Firbase Realtime Database </h1>
+    <br>
+    <button onclick="writeUserDataList()"> Click me to save simple data lists </button>
+    <br><br>
+    <button onclick="writeUserDataComplexList()"> Click me to save complex data lists </button>
+    <br><br>
+    <button onclick="readSimpleData()"> Click me to retrieve simple data list </button>
+    <br><br>
+    <button onclick="readComplexData()"> Click me to retrieve complex data list </button>
+    <br><br><br>
+    <h1> Using Firebase Authentication </h1>
+    <br>
+    <input placeholder="Email" id="emailInput">
+    <input placeholder="Password" id="passwordInput">
+    <br><br>
+    <button onclick="authSignUp()"> Click me to sign up </button>
+    <br><br>
+    <button onclick="authSignIn()"> Click me to sign in </button>
+    <br><br>
+    <button onclick="authSignOut()"> Click me to sign out </button>
+    <br><br>
+    <button onclick="authResetPassword()"> Click me to send reset password link </button>
+    <br><br>
+    <button onclick="authDeleteAccount()"> Click me to delete account </button>
+    <br><br>
+    </center>
+</body>
+</html>
